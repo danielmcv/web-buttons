@@ -1,0 +1,102 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+h2{
+	color: #8e9194;
+	margin: 50px 0 50px 0;
+	font-size: 40px;
+}
+h3{
+	color: #8e9194;
+	margin: 50px 0 240px 0;
+
+}
+a{
+	margin: 40px 50px 30px 50px;
+}
+.uno{
+	text-decoration: none;
+	background: #F15A5A;
+	color: white;
+	padding: 8px 20px 8px 20px;
+	border-radius: 7px;
+	transition: all 0.3s;
+
+}
+.uno:hover{ 
+	box-shadow: 0 0 0 3px white, 0 0 0 7px #F15A5A;
+}
+.dos{
+	text-decoration: none;
+	background: #F0C419;
+	color: white;
+	padding: 8px 20px 8px 20px;
+	border-radius: 7px;
+	transition: all 0.3s;
+}
+.dos:hover{
+	box-shadow: 0 0 0 4px #F0C419 inset, 0 0 0 7px white inset;
+}
+.tres{
+	text-decoration: none;
+	background: #4EBA6F;
+	color: white;
+	padding: 8px 20px 8px 20px;
+	border-radius: 7px;
+	position: relative;
+	top: 0;
+	left: 0;
+	transition: all 0.3s;
+}
+.tres:hover{
+	box-shadow: 2px 2px 0 0 #95baa0, 4px 4px 0 0 #95baa0;
+	top: -4px;
+	left: -4px;
+}
+.cuatro{
+	text-decoration: none;
+	background: #2D95BF;
+	color: white;
+	padding: 8px 20px 8px 20px;
+	border-radius: 7px;
+	transition: all 0.3s;
+	box-shadow: 5px 5px 0 #80adbf;
+	position: relative;
+	top: 0px;
+	right: 0;
+	bottom: 0;
+	left: 0px;
+
+}
+.cuatro:hover{
+	top: 5px;
+	left: 5px;
+	box-shadow: 0 0 0 #80adbf;
+}
+.cinco{
+	text-decoration: none;
+	background: #955BA5;
+	color: white;
+	padding: 8px 20px 8px 20px;
+	border-radius: 7px;
+	transition: all 0.2s;
+}
+.cinco:hover{
+	background: white;
+	color: #955BA5;
+	border-top: 4px solid #955BA5;
+	border-bottom: 4px solid #955BA5;
+}
+.seis{
+	text-decoration: none;
+	color: #E67E22;
+	padding: 8px 20px 8px 20px;
+	border-radius: 7px;
+	border: 3px solid #E67E22;
+	transition: all 0.5s;
+}
+.seis:hover{
+	background: #E67E22;
+	color: white;
+}
